@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Collab — Build Your Business. We'll Help You Run It.</title>
+<meta name="description" content="Collab brings workspace, company registration, accounting, payroll, digital marketing and custom software together in one ecosystem. Coworking and managed offices in Whitefield, Bengaluru." />
+<meta name="theme-color" content="#00305C" />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Collab" />
+<meta property="og:title" content="Collab — Build Your Business. We'll Help You Run It." />
+<meta property="og:description" content="Workspace, business setup, accounting, marketing and technology — all under one roof. Whitefield, Bengaluru." />
+<meta property="og:image" content="assets/photos/hero-private-cabins.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Collab — Build Your Business. We'll Help You Run It." />
+<meta name="twitter:description" content="Workspace, business setup, accounting, marketing and technology — all under one roof." />
+
+<link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" />
+<link rel="icon" href="assets/img/favicon-512.png" sizes="512x512" />
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Collab",
+  "alternateName": "Collab Cubicles",
+  "description": "Business infrastructure and services — coworking and managed workspace, company registration, accounting, payroll, compliance, digital marketing, and custom software and AI automation.",
+  "url": "https://collabcubicles.com/",
+  "email": "hello@collabcubicles.com",
+  "telephone": "+91-960-628-3132",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Brigade IRV Centre, Unit No. 301, 3rd Floor, Nallurahalli",
+    "addressLocality": "Whitefield, Bengaluru",
+    "addressRegion": "Karnataka",
+    "postalCode": "560066",
+    "addressCountry": "IN"
+  },
+  "areaServed": "Bengaluru",
+  "makesOffer": [
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Coworking and managed office space" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Virtual office and registered business address" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Company registration and business setup" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Accounting, bookkeeping and payroll" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Digital marketing and SEO" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website, software development and AI automation" } }
+  ]
+}
+</script>
+</head>
+
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ======================= HEADER ======================= -->
+<header class="site-header">
+  <div class="nav-bar">
+    <a class="brand" href="#top" aria-label="Collab — home">
+      <img src="assets/img/collab-logo-white.png" alt="Collab Cubicles" width="230" height="90" />
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <div class="has-menu" data-menu>
+        <button class="nav__trigger" type="button" aria-expanded="false" aria-controls="solutions-menu" data-menu-trigger>
+          Solutions
+          <svg class="nav__caret" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="mega" id="solutions-menu" data-menu-panel>
+          <div>
+            <div class="mega__title">Start</div>
+            <div class="mega__list">
+              <a href="#business">Company Registration</a>
+              <a href="#workspace">Virtual Office</a>
+              <a href="#workspace">Workspace</a>
+            </div>
+          </div>
+          <div>
+            <div class="mega__title">Run</div>
+            <div class="mega__list">
+              <a href="#business">Accounting</a>
+              <a href="#business">Payroll</a>
+              <a href="#business">Business Support</a>
+            </div>
+          </div>
+          <div>
+            <div class="mega__title">Grow</div>
+            <div class="mega__list">
+              <a href="#marketing">Digital Marketing</a>
+              <a href="#marketing">SEO</a>
+              <a href="#marketing">Lead Generation</a>
+            </div>
+          </div>
+          <div>
+            <div class="mega__title">Build</div>
+            <div class="mega__list">
+              <a href="#technology">Software Development</a>
+              <a href="#technology">Websites</a>
+              <a href="#technology">AI &amp; Automation</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="nav__link" href="#workspace">Workspace</a>
+      <a class="nav__link" href="#technology">Technology</a>
+      <a class="nav__link" href="#marketing">Marketing</a>
+      <a class="nav__link" href="#why">About</a>
+      <a class="nav__link" href="#contact">Contact</a>
+      <a class="btn btn--primary btn--sm" href="#contact">Get Started</a>
+    </nav>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-drawer" data-drawer-trigger>
+      <span class="visually-hidden">Menu</span>
+      <span class="nav-toggle__bars" aria-hidden="true"><span></span><span></span><span></span></span>
+    </button>
+  </div>
+
+</header>
+
+<!-- Mobile drawer lives outside <header>: the header's backdrop-filter would
+     otherwise become the containing block for this fixed-position panel. -->
+<div class="drawer" id="mobile-drawer" data-drawer hidden>
+  <div class="drawer__group">
+    <div class="drawer__label">Start</div>
+    <div class="drawer__links">
+      <a href="#business">Company Registration</a>
+      <a href="#workspace">Virtual Office</a>
+      <a href="#workspace">Workspace</a>
+    </div>
+  </div>
+  <div class="drawer__group">
+    <div class="drawer__label">Run</div>
+    <div class="drawer__links">
+      <a href="#business">Accounting</a>
+      <a href="#business">Payroll</a>
+      <a href="#business">Business Support</a>
+    </div>
+  </div>
+  <div class="drawer__group">
+    <div class="drawer__label">Grow</div>
+    <div class="drawer__links">
+      <a href="#marketing">Digital Marketing</a>
+      <a href="#marketing">SEO</a>
+      <a href="#marketing">Lead Generation</a>
+    </div>
+  </div>
+  <div class="drawer__group">
+    <div class="drawer__label">Build</div>
+    <div class="drawer__links">
+      <a href="#technology">Software Development</a>
+      <a href="#technology">Websites</a>
+      <a href="#technology">AI &amp; Automation</a>
+    </div>
+  </div>
+  <div class="drawer__group">
+    <div class="drawer__label">Company</div>
+    <div class="drawer__links">
+      <a href="#solutions">Solutions</a>
+      <a href="#why">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+  <div class="drawer__cta">
+    <a class="btn btn--primary" href="#contact">Get Started</a>
+  </div>
+</div>
+
+
+<main id="main">
+
+<!-- ======================= HERO ======================= -->
+<section class="hero" id="top">
+  <div class="hero__grid">
+    <div class="reveal">
+      <div class="hero__badge">
+        <span class="hero__dot" aria-hidden="true"></span>
+        Business infrastructure · Bengaluru
+      </div>
+      <h1 class="hero__title">Build Your Business.<br /><em>We'll Help You Run It.</em></h1>
+      <p class="hero__lede">Workspace, business setup, accounting, marketing and technology — all under one roof.</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#contact">Start With Collab</a>
+        <a class="btn btn--ghost-light" href="#chooser">Explore Services</a>
+      </div>
+      <div class="hero__brands">
+        <div>
+          <div class="hero__brand-name">Collab Cubicles</div>
+          <div class="hero__brand-desc">Workspace &amp; managed offices</div>
+        </div>
+        <div>
+          <div class="hero__brand-name">Collab Business Services</div>
+          <div class="hero__brand-desc">Registration · Accounting · Payroll</div>
+        </div>
+        <div>
+          <div class="hero__brand-name">Collab Growth &amp; Technology</div>
+          <div class="hero__brand-desc">Marketing · Software · AI</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__media reveal">
+      <div class="hero__figure">
+        <picture>
+          <source srcset="assets/photos/hero-private-cabins.webp" type="image/webp" />
+          <img src="assets/photos/hero-private-cabins.jpg" width="1500" height="911"
+               alt="Private cabins with glass fronts at Collab Cubicles, Whitefield" fetchpriority="high" />
+        </picture>
+      </div>
+      <div class="hero__facts">
+        <div class="hero__fact">
+          <strong>Brigade IRV Centre</strong>
+          <span>Nallurahalli, Whitefield</span>
+        </div>
+        <div class="hero__fact">
+          <strong>Start → Run → Grow</strong>
+          <span>Enter at any stage</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= CHOOSER ======================= -->
+<section class="section section--light" id="chooser">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">What can we help you with?</div>
+      <h2 class="h-section" style="max-width:820px">What are you looking to do?</h2>
+      <p class="lede" style="max-width:620px;margin-top:16px">Pick where you are today. We'll show you the services that fit — individually, or combined.</p>
+    </div>
+
+    <div class="chooser__grid reveal-group" data-stagger>
+      <button class="choice" type="button" aria-pressed="false" data-plan="start" aria-controls="plan-panel">
+        <span class="choice__num">01</span>
+        <span class="choice__title">Start a Business</span>
+        <span class="choice__desc">Company registration, virtual address, workspace and accounting.</span>
+        <span class="choice__ring" aria-hidden="true"></span>
+      </button>
+      <button class="choice" type="button" aria-pressed="false" data-plan="team" aria-controls="plan-panel">
+        <span class="choice__num">02</span>
+        <span class="choice__title">Set Up Your Team</span>
+        <span class="choice__desc">Workspace, payroll, accounting and operational support.</span>
+        <span class="choice__ring" aria-hidden="true"></span>
+      </button>
+      <button class="choice" type="button" aria-pressed="false" data-plan="grow" aria-controls="plan-panel">
+        <span class="choice__num">03</span>
+        <span class="choice__title">Grow Your Business</span>
+        <span class="choice__desc">Digital marketing, SEO and customer acquisition.</span>
+        <span class="choice__ring" aria-hidden="true"></span>
+      </button>
+      <button class="choice" type="button" aria-pressed="false" data-plan="build" aria-controls="plan-panel">
+        <span class="choice__num">04</span>
+        <span class="choice__title">Build Your Technology</span>
+        <span class="choice__desc">Websites, software, automation and custom solutions.</span>
+        <span class="choice__ring" aria-hidden="true"></span>
+      </button>
+    </div>
+
+    <div class="plan" id="plan-panel" role="region" aria-live="polite" aria-label="Your Collab path" hidden>
+      <div>
+        <div class="eyebrow eyebrow--on-dark">Your Collab path</div>
+        <div class="plan__title" data-plan-title></div>
+        <p class="plan__note" data-plan-note></p>
+      </div>
+      <ul class="plan__items" data-plan-items></ul>
+      <div class="plan__actions">
+        <a class="btn btn--primary btn--sm" href="#contact">Talk to Collab</a>
+        <button class="plan__clear" type="button" data-plan-clear>Clear selection</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= ECOSYSTEM ======================= -->
+<section class="section section--light section--divider-top" id="ecosystem">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2 class="h-section" style="margin-top:0">One Partner.<br />Multiple Business Needs.</h2>
+      <p class="lede">From your first office to your next software platform, Collab brings together the workspace, professional services and technology your business needs to move forward.</p>
+    </div>
+
+    <div class="ecosystem__diagram reveal">
+      <div class="ecosystem__node">
+        <img src="assets/img/collab-logo-white.png" alt="Collab" width="230" height="90" loading="lazy" />
+      </div>
+      <div class="ecosystem__stem" aria-hidden="true"></div>
+
+      <div class="ecosystem__cards reveal-group" data-stagger>
+        <div class="pillar">
+          <div class="pillar__tag">
+            <span class="pillar__bullet pillar__bullet--start" aria-hidden="true"></span>
+            <span>Start</span>
+          </div>
+          <div class="pillar__line">Get your business started.</div>
+          <ul class="pillar__list">
+            <li>Company Registration</li>
+            <li>Business Setup Assistance</li>
+            <li>Registered / Virtual Office Address</li>
+            <li>Accounting &amp; Compliance Setup</li>
+            <li>Workspace</li>
+          </ul>
+        </div>
+        <div class="pillar">
+          <div class="pillar__tag">
+            <span class="pillar__bullet pillar__bullet--run" aria-hidden="true"></span>
+            <span>Run</span>
+          </div>
+          <div class="pillar__line">Keep your business running.</div>
+          <ul class="pillar__list">
+            <li>Coworking &amp; Managed Office Space</li>
+            <li>Accounting &amp; Bookkeeping</li>
+            <li>Payroll Processing</li>
+            <li>Compliance Support</li>
+            <li>Virtual Office</li>
+            <li>Administrative Support</li>
+          </ul>
+        </div>
+        <div class="pillar">
+          <div class="pillar__tag">
+            <span class="pillar__bullet pillar__bullet--grow" aria-hidden="true"></span>
+            <span>Grow</span>
+          </div>
+          <div class="pillar__line">Build, automate and grow.</div>
+          <ul class="pillar__list">
+            <li>Digital Marketing · SEO</li>
+            <li>Social Media Marketing</li>
+            <li>Website Development</li>
+            <li>Software Development</li>
+            <li>Custom Business Software</li>
+            <li>AI Automation / AI Solutions</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="ecosystem__foot">Use one service, combine a few, or let Collab run the whole stack. You can enter at any stage.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= WORKSPACE ======================= -->
+<section class="section section--white" id="workspace">
+  <div class="wrap workspace__grid">
+    <div class="reveal">
+      <div class="eyebrow">Collab Cubicles</div>
+      <h2 class="workspace__title">Your workspace.<br />Your team. Your way.</h2>
+      <p class="lede workspace__lede">Our coworking and managed offices in Whitefield — the physical foundation Collab was built on. Flexible terms, onsite support staff, parking and tech-enabled meeting rooms.</p>
+      <div class="tag-row">
+        <span class="tag">Hot desks</span>
+        <span class="tag">Dedicated desks</span>
+        <span class="tag">Private cabins · 2–12 seaters</span>
+        <span class="tag">Managed offices</span>
+        <span class="tag">Meeting rooms · 6–12 seaters</span>
+        <span class="tag">Training room · 12–20 seaters</span>
+        <span class="tag">Virtual office</span>
+        <span class="tag">Business address</span>
+      </div>
+      <a class="btn btn--navy" href="#contact" style="margin-top:28px">Explore Workspace</a>
+    </div>
+
+    <div class="gallery reveal">
+      <figure class="gallery__wide">
+        <picture>
+          <source srcset="assets/photos/open-workspace.webp" type="image/webp" />
+          <img src="assets/photos/open-workspace.jpg" width="1200" height="661" loading="lazy"
+               alt="Open workstations and dedicated desks at Collab Cubicles" />
+        </picture>
+        <figcaption>Dedicated desks</figcaption>
+      </figure>
+      <figure class="gallery__small">
+        <picture>
+          <source srcset="assets/photos/breakout-lounge.webp" type="image/webp" />
+          <img src="assets/photos/breakout-lounge.jpg" width="900" height="572" loading="lazy"
+               alt="Breakout lounge seating area at Collab Cubicles" />
+        </picture>
+        <figcaption>Breakout lounge</figcaption>
+      </figure>
+      <figure class="gallery__small">
+        <picture>
+          <source srcset="assets/photos/terrace-cafeteria.webp" type="image/webp" />
+          <img src="assets/photos/terrace-cafeteria.jpg" width="900" height="493" loading="lazy"
+               alt="Cafeteria and terrace area at Collab Cubicles" />
+        </picture>
+        <figcaption>Cafeteria &amp; terrace</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= JOURNEY ======================= -->
+<section class="section section--navy" id="journey">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow eyebrow--on-dark">The journey</div>
+      <h2 class="h-section">Build Your Business With Collab</h2>
+    </div>
+
+    <div class="journey__grid reveal-group" data-stagger>
+      <div class="stage">
+        <div class="stage__label">01 — START</div>
+        <ul class="stage__steps">
+          <li>Register your company</li>
+          <li>Get your business address</li>
+          <li>Set up your workspace</li>
+        </ul>
+      </div>
+      <div class="stage">
+        <div class="stage__label">02 — OPERATE</div>
+        <ul class="stage__steps">
+          <li>Accounting</li>
+          <li>Payroll</li>
+          <li>Business support</li>
+        </ul>
+      </div>
+      <div class="stage">
+        <div class="stage__label">03 — GROW</div>
+        <ul class="stage__steps">
+          <li>Digital marketing</li>
+          <li>SEO</li>
+          <li>Lead generation</li>
+        </ul>
+      </div>
+      <div class="stage">
+        <div class="stage__label">04 — BUILD</div>
+        <ul class="stage__steps">
+          <li>Website</li>
+          <li>Custom software</li>
+          <li>AI &amp; automation</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="journey__foot reveal">
+      <div class="journey__kicker">You don't need four different vendors. Start with Collab.</div>
+      <a class="btn btn--primary" href="#contact">Talk to Collab</a>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= TECHNOLOGY ======================= -->
+<section class="section section--deep" id="technology">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow eyebrow--on-dark">Collab Technology</div>
+        <h2 class="tech__title">Technology Built Around Your Business</h2>
+      </div>
+      <p class="lede lede--on-dark">From websites and internal tools to custom software and AI-powered automation, we build technology around the way your business actually works.</p>
+    </div>
+
+    <div class="tech__grid reveal-group" data-stagger>
+      <div class="tech-card">
+        <h3>Website Development</h3>
+        <p>Marketing sites and web platforms that hold up as you scale.</p>
+      </div>
+      <div class="tech-card">
+        <h3>Custom Software</h3>
+        <p>Products and internal systems built to your process, not a template.</p>
+      </div>
+      <div class="tech-card">
+        <h3>Business Automation</h3>
+        <p>Replace the manual steps between your tools and teams.</p>
+      </div>
+      <div class="tech-card">
+        <h3>AI Solutions</h3>
+        <p>Assistants, document workflows and decision support on your data.</p>
+      </div>
+      <div class="tech-card">
+        <h3>Integrations</h3>
+        <p>Connect accounting, CRM, payroll and operations into one flow.</p>
+      </div>
+      <div class="tech-card">
+        <h3>Internal Tools</h3>
+        <p>Dashboards and admin tools your team will actually use.</p>
+      </div>
+    </div>
+
+    <a class="btn btn--outline-dark reveal" href="#contact" style="margin-top:34px">Build Something With Us</a>
+  </div>
+</section>
+
+<!-- ======================= MARKETING ======================= -->
+<section class="section section--light" id="marketing">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Collab Growth</div>
+      <h2 class="h-section">Get Found. Get Customers. Grow.</h2>
+    </div>
+
+    <div class="marketing__grid">
+      <div class="marketing__services reveal-group" data-stagger>
+        <div class="service-chip">SEO</div>
+        <div class="service-chip">Search Marketing</div>
+        <div class="service-chip">Social Media</div>
+        <div class="service-chip">Content</div>
+        <div class="service-chip">Performance Marketing</div>
+        <div class="service-chip">Lead Generation</div>
+      </div>
+      <div class="reveal">
+        <ul class="funnel">
+          <li>Strategy</li>
+          <li class="funnel__arrow" aria-hidden="true">→</li>
+          <li>Traffic</li>
+          <li class="funnel__arrow" aria-hidden="true">→</li>
+          <li>Leads</li>
+          <li class="funnel__arrow" aria-hidden="true">→</li>
+          <li>Customers</li>
+        </ul>
+        <p class="lede" style="margin-top:22px;max-width:460px">One team handles the plan, the channels and the reporting — with the website and automation work in the same building.</p>
+        <a class="btn btn--navy" href="#contact" style="margin-top:24px">Grow With Collab</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= BUSINESS SERVICES ======================= -->
+<section class="section section--white" id="business">
+  <div class="wrap business__grid">
+    <div class="reveal">
+      <div class="eyebrow">Collab Business Services</div>
+      <h2 class="business__title">The Back Office,<br />Taken Care Of.</h2>
+      <p class="lede" style="margin-top:18px;max-width:460px">Focus on your business. We'll help handle the operations behind it.</p>
+    </div>
+    <div class="matrix reveal">
+      <div><h3>Accounting</h3><p>Monthly books, reconciliations, reporting.</p></div>
+      <div><h3>Bookkeeping</h3><p>Day-to-day records kept audit-ready.</p></div>
+      <div><h3>Payroll Processing</h3><p>Salaries, payslips and statutory filings.</p></div>
+      <div><h3>Compliance Support</h3><p>Returns and deadlines tracked for you.</p></div>
+      <div><h3>Company Registration</h3><p>Incorporation and post-setup essentials.</p></div>
+      <div><h3>Business Address</h3><p>Registered address in Whitefield with mail handling.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= BUNDLED SOLUTIONS ======================= -->
+<section class="section section--navy" id="solutions">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow eyebrow--on-dark">Bundled solutions</div>
+        <h2 class="h-section">Buy One Service.<br />Or Take the Whole Stack.</h2>
+      </div>
+      <p class="lede lede--on-dark">Ready-made combinations for the four situations we see most often. Every pack is adjustable.</p>
+    </div>
+
+    <div class="packs reveal-group" data-stagger>
+      <div class="pack">
+        <h3>Startup Launch Pack</h3>
+        <ul>
+          <li>Workspace</li>
+          <li>Company Registration</li>
+          <li>Business Address</li>
+          <li>Accounting</li>
+        </ul>
+        <div class="pack__for">For founders getting started.</div>
+      </div>
+      <div class="pack">
+        <h3>Business Operations Pack</h3>
+        <ul>
+          <li>Managed Workspace</li>
+          <li>Accounting</li>
+          <li>Payroll</li>
+          <li>Business Support</li>
+        </ul>
+        <div class="pack__for">For growing teams.</div>
+      </div>
+      <div class="pack">
+        <h3>Growth Pack</h3>
+        <ul>
+          <li>Website</li>
+          <li>SEO</li>
+          <li>Digital Marketing</li>
+          <li>Lead Generation</li>
+        </ul>
+        <div class="pack__for">For businesses ready to acquire more customers.</div>
+      </div>
+      <div class="pack">
+        <h3>Build &amp; Automate</h3>
+        <ul>
+          <li>Custom Software</li>
+          <li>Integrations</li>
+          <li>AI Automation</li>
+        </ul>
+        <div class="pack__for">For businesses that need technology built around their processes.</div>
+      </div>
+    </div>
+
+    <a class="btn btn--primary reveal" href="#contact" style="margin-top:34px">Tell Us What You Need</a>
+  </div>
+</section>
+
+<!-- ======================= WHY COLLAB ======================= -->
+<section class="section section--light" id="why">
+  <div class="wrap">
+    <h2 class="h-section reveal" style="margin-top:0;max-width:720px">Why Businesses Choose Collab</h2>
+    <div class="why__grid reveal-group" data-stagger>
+      <div class="reason">
+        <h3>One partner, multiple needs</h3>
+        <p>Workspace, compliance, marketing and software coordinated by one team.</p>
+      </div>
+      <div class="reason">
+        <h3>Physical space + services</h3>
+        <p>A real office in Whitefield, not just a vendor on email.</p>
+      </div>
+      <div class="reason">
+        <h3>Individual or bundled</h3>
+        <p>Take one service now, add the next when you need it.</p>
+      </div>
+      <div class="reason">
+        <h3>Startup-friendly</h3>
+        <p>Flexible terms and setups built for early-stage teams.</p>
+      </div>
+      <div class="reason">
+        <h3>Technology &amp; automation</h3>
+        <p>In-house capability to build and automate, not outsource.</p>
+      </div>
+      <div class="reason">
+        <h3>Long-term support</h3>
+        <p>The same partner from incorporation through scale-up.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--
+  ======================= SOCIAL PROOF (DISABLED) =======================
+  Brief §14 asks for client logos, testimonials and case studies, and states
+  "Use actual client information only."
+
+  No verified client names, quotes or logos were available at build time, so
+  this section is intentionally left out of the live page rather than filled
+  with placeholder people or invented results.
+
+  TO ENABLE: uncomment this block, drop client logo files into
+  assets/photos/clients/, and replace every quote and attribution with a real,
+  approved one. Do not ship it with the sample text below.
+
+  <section class="section section--light section--divider-top" id="proof">
+    <div class="wrap">
+      <h2 class="h-section" style="margin-top:0">Businesses that started, operated and grew with Collab.</h2>
+      <div class="why__grid" style="margin-top:32px">
+        <blockquote>"<real client quote>" — <name>, <company></blockquote>
+      </div>
+    </div>
+  </section>
+  ====================================================================
+-->
+
+<!-- ======================= CONTACT ======================= -->
+<section class="contact" id="contact">
+  <div class="contact__inner">
+    <h2 class="contact__title reveal">Wherever You Are in Your Business Journey, Start With Collab.</h2>
+    <p class="contact__lede reveal">Tell us what you're building. We'll help you figure out what you need next.</p>
+    <div class="contact__actions reveal">
+      <a class="btn btn--primary" href="mailto:hello@collabcubicles.com?subject=Talk%20to%20Collab">Talk to Collab</a>
+      <a class="btn btn--ghost-light" href="#chooser">Explore Services</a>
+    </div>
+
+    <div class="contact__channels reveal-group" data-stagger>
+      <a class="channel" href="mailto:hello@collabcubicles.com">
+        <div class="channel__label">Email</div>
+        <div class="channel__value">hello@collabcubicles.com</div>
+        <div class="channel__meta">Tell us what you need — we'll reply with options.</div>
+      </a>
+      <a class="channel" href="tel:+919606283132">
+        <div class="channel__label">Call</div>
+        <div class="channel__value">+91 960 628 3132</div>
+        <div class="channel__meta">Speak to the team about workspace or services.</div>
+      </a>
+      <a class="channel" href="https://wa.me/919606283132" target="_blank" rel="noopener">
+        <div class="channel__label">WhatsApp</div>
+        <div class="channel__value">Message us</div>
+        <div class="channel__meta">Quick questions and workspace availability.</div>
+      </a>
+      <a class="channel" href="https://maps.google.com/?q=Collab+Cubicles,+Brigade+IRV+Centre,+Nallurahalli,+Whitefield,+Bengaluru+560066" target="_blank" rel="noopener">
+        <div class="channel__label">Visit</div>
+        <div class="channel__value">Brigade IRV Centre</div>
+        <div class="channel__meta">Unit 301, 3rd Floor, Nallurahalli, Whitefield, Bengaluru 560066</div>
+      </a>
+    </div>
+
+    <div class="map reveal">
+      <div class="map__frame">
+        <iframe
+          title="Map showing Collab Cubicles at Brigade IRV Centre, Nallurahalli, Whitefield, Bengaluru"
+          src="https://www.google.com/maps/embed?pb=!1m3!2m1!1sCollab+Cubicles,+Brigade+IRV+Centre,+Nallurahalli,+Whitefield,+Bengaluru+560066!6i16!3m1!1sen!5m1!1sen"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen></iframe>
+      </div>
+      <div class="map__bar">
+        <div>
+          <div class="map__where">Collab Cubicles · Whitefield</div>
+          <div class="map__addr">Brigade IRV Centre, Unit No. 301, 3rd Floor, Nallurahalli, Bengaluru, KA – 560066</div>
+        </div>
+        <a class="map__link"
+           href="https://www.google.com/maps/dir/?api=1&amp;destination=Collab%20Cubicles%2C%20Brigade%20IRV%20Centre%2C%20Nallurahalli%2C%20Whitefield%2C%20Bengaluru%20560066"
+           target="_blank" rel="noopener">Get directions →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ======================= FOOTER ======================= -->
+<footer class="site-footer">
+  <div class="footer__grid">
+    <div>
+      <img src="assets/img/collab-logo-white.png" alt="Collab Cubicles" width="230" height="90" style="height:36px;width:auto" loading="lazy" />
+      <p class="footer__about">Collab — business infrastructure for ambitious companies. Workspace, business services, growth and technology.</p>
+      <div class="footer__social">
+        <a href="https://www.instagram.com/collabcubicles/" target="_blank" rel="noopener" aria-label="Collab Cubicles on Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.06 1.8.25 2.2.42.6.22 1 .48 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c0 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2 0-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c0-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.5 0-4.7.07-1.1.05-1.7.24-2.1.4-.5.2-.9.44-1.3.84-.4.4-.64.8-.84 1.3-.16.4-.35 1-.4 2.1C2.6 9.9 2.6 10.3 2.6 12s0 2.1.06 3.3c.05 1.1.24 1.7.4 2.1.2.5.44.9.84 1.3.4.4.8.64 1.3.84.4.16 1 .35 2.1.4 1.2.06 1.6.06 4.7.06s3.5 0 4.7-.06c1.1-.05 1.7-.24 2.1-.4.5-.2.9-.44 1.3-.84.4-.4.64-.8.84-1.3.16-.4.35-1 .4-2.1.06-1.2.06-1.6.06-3.3s0-2.1-.06-3.3c-.05-1.1-.24-1.7-.4-2.1-.2-.5-.44-.9-.84-1.3-.4-.4-.8-.64-1.3-.84-.4-.16-1-.35-2.1-.4C15.5 4 15.1 4 12 4zm0 3.1a4.9 4.9 0 110 9.8 4.9 4.9 0 010-9.8zm0 8.1a3.2 3.2 0 100-6.4 3.2 3.2 0 000 6.4zm6.2-8.3a1.15 1.15 0 11-2.3 0 1.15 1.15 0 012.3 0z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/company/collab-cubicles/" target="_blank" rel="noopener" aria-label="Collab Cubicles on LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 11.02 5 2.5 2.5 0 01-.02-5zM3 9h4v12H3zM10 9h3.8v1.7h.05c.53-.95 1.83-1.95 3.76-1.95C21.4 8.75 22 11 22 14.1V21h-4v-6.1c0-1.45-.03-3.3-2.02-3.3-2.02 0-2.33 1.57-2.33 3.2V21h-4z"/></svg>
+        </a>
+        <a href="https://www.facebook.com/collabcubicles/" target="_blank" rel="noopener" aria-label="Collab Cubicles on Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1V7.9c0-.9.25-1.5 1.55-1.5h1.65V3.6c-.29-.04-1.27-.12-2.41-.12-2.39 0-4.03 1.46-4.03 4.14V9.9H7.5V13h2.76v8z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div>
+      <div class="footer__label">Ecosystem</div>
+      <div class="footer__links">
+        <a href="#workspace">Collab Cubicles</a>
+        <a href="#business">Collab Business Services</a>
+        <a href="#marketing">Collab Growth</a>
+        <a href="#technology">Collab Technology</a>
+      </div>
+    </div>
+
+    <div>
+      <div class="footer__label">Company</div>
+      <div class="footer__links">
+        <a href="#solutions">Solutions</a>
+        <a href="#why">About</a>
+        <a href="#chooser">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <div>
+      <div class="footer__label">Visit</div>
+      <address class="footer__address">
+        Brigade IRV Centre, Unit No. 301, 3rd Floor,<br />
+        Nallurahalli, Whitefield,<br />
+        Bengaluru, KA – 560066
+      </address>
+      <div class="footer__contact">
+        <a href="mailto:hello@collabcubicles.com" style="color:var(--accent-on-dark)">hello@collabcubicles.com</a>
+        <a href="tel:+919606283132">+91 960 628 3132</a>
+        <a href="https://collabcubicles.com">collabcubicles.com</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__bar">
+    <span>&copy; <span data-year>2026</span> Collab Cubicles · collabcubicles.com</span>
+    <span>Whitefield, Bengaluru</span>
+  </div>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
